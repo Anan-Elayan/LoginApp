@@ -37,8 +37,7 @@
                 android:hint="UserName"
                 android:autofillHints="UserName"
                 android:inputType="textEmailAddress"
-                android:textColor="@color/black"
-                android:textSize="20sp"
+                style="@style/myStyle"
                 tools:ignore="LabelFor" />
 
             <EditText
@@ -52,8 +51,7 @@
                 android:layout_marginTop="35dp"
                 android:autofillHints="Password"
                 android:inputType="textPassword"
-                android:textColor="@color/black"
-                android:textSize="20sp"
+                style="@style/myStyle"
                 tools:ignore="LabelFor" />
 
         </LinearLayout>
